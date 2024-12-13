@@ -2,33 +2,33 @@ import MyExploreComp from "./MyExplorerComp";
 
 const MyExplorer = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-10 mb-12 mt-8">
       <a href="">
         <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Decenni"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Attivitá e stati d'animo"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Worldwide"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Classifiche"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Audio spaziale"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Video musicali"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Nuovi artisti"}></MyExploreComp>
       </a>
       <a href="">
-        <MyExploreComp write={"Esplora per generi"}></MyExploreComp>
+        <MyExploreComp write={"Hit del passato"}></MyExploreComp>
       </a>
     </div>
   );
